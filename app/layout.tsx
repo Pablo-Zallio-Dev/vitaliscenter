@@ -3,6 +3,7 @@ import { Catamaran, Crimson_Text } from "next/font/google";
 import "./globals.css";
 import MobileMenu from "./components/organism/MobileMenu";
 import MobileHeader from "./components/organism/MobileHeader";
+import DesktopHeader from "./components/organism/DesktopHeader";
 
 const crimsonText = Crimson_Text({
       variable: "--font-crimson-text",
@@ -31,6 +32,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
                   <body className="min-h-full flex flex-col text-text">
                         <header>
                               <MobileHeader />
+                              <DesktopHeader />
                         </header>
                         <MobileMenu />
                         <main>{children}</main>
