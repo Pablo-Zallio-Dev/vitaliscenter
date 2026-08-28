@@ -2,10 +2,13 @@
 
 :root {
   --accent: #ed688d;
-  --background: #faf7eb;
+  --background: #fbf6e2;
   --background-dark: #1d1610;
+  --muted-foreground: #5c534c;
   --border: #1b140f;
-  --border-cream: #faf7ea;
+  --border-25: #1b140f40;
+  --border-cream-35: #faf7ea3e;
+  --cream: #faf7eb;
   --text: #1d1610;
   --text-secondary: #fdfcf4;
 }
@@ -14,13 +17,16 @@
   /* COLORES */
   --color-accent: var(--accent);
   --color-border: var(--border);
-  --color-border-cream: var(--border-cream);
+  --color-border-25: var(--border-25);
+  --color-border-cream-35: var(--border-cream-35);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-cream: var(--cream);
   --color-background: var(--background);
   --color-background-dark: var(--background-dark);
   --color-text: var(--text);
   --color-text-secondary: var(--text-secondary);
 
   /* FUENTE */
-  --font-titles: var(--font-crimson-text);
-  --font-texts: var(--font-catamaran);
+  --font-crimsonText: var(--font-crimson-text);
+  --font-catamaran: var(--font-catamaran);
 }
