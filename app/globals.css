@@ -11,6 +11,7 @@
   --cream: #faf7eb;
   --text: #1d1610;
   --text-secondary: #fdfcf4;
+  --wa: #25D366;
 }
 
 @theme inline {
@@ -25,6 +26,7 @@
   --color-background-dark: var(--background-dark);
   --color-text: var(--text);
   --color-text-secondary: var(--text-secondary);
+  --color-wa: var(--wa);
 
   /* FUENTE */
   --font-crimsonText: var(--font-crimson-text);
