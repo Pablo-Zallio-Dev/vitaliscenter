@@ -1,6 +1,6 @@
 
 export type SubHeadingProps = {
-      number: string,
+      number?: string,
       text: string,
       dark?: boolean
 }
