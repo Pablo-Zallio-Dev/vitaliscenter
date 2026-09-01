@@ -8,8 +8,7 @@ import { MdOutlineWatchLater } from 'react-icons/md'
 const Footer = () => {
       return (
             <section className=" flex flex-col bg-background-dark text-cream ">
-
-                  <section className=" flex justify-center py-16 md:py-24 px-5 md:px-12  ">
+                  <section className=" flex justify-center py-10 px-5 md:px-12  ">
                         <div className=" grid grid-cols-1 md:grid-cols-2 md:justify-items-center gap-12 w-full max-w-336  ">
 
                               <div className="">
