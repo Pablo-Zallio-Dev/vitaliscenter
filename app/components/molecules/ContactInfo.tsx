@@ -9,12 +9,12 @@ const ContactInfo = () => {
                   {/* Este link es para Whatsapp */}
                   <Link className=" flex items-center gap-3 " href={''}>
                         <Icon icon={BsTelephone} />
-                        <p className=" ">623 12 34 56</p>
+                        <p className=" hover:text-accent transition-colors duration-200 ">623 12 34 56</p>
                   </Link>
                   {/* Aqui un link a mail o  a form */}
                   <Link className='flex items-center gap-3' href={''}>
                         <Icon icon={BsEnvelope} />
-                        <p className=""> info@mail.com </p>
+                        <p className=" hover:text-accent transition-colors duration-200 "> info@mail.com </p>
                   </Link>
             </section>
       )

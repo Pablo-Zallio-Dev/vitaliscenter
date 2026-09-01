@@ -4,6 +4,8 @@ import "./globals.css";
 import MobileMenu from "./components/organism/MobileMenu";
 import MobileHeader from "./components/organism/MobileHeader";
 import DesktopHeader from "./components/organism/DesktopHeader";
+import ButtonWa from "./components/atoms/ButtonWa";
+import Footer from "./components/organism/Footer";
 
 const crimsonText = Crimson_Text({
       variable: "--font-crimson-text",
@@ -36,7 +38,8 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
                         </header>
                         <MobileMenu />
                         <main>{children}</main>
-                        <footer></footer>
+                        <ButtonWa />
+                        <Footer />
                   </body>
             </html>
       );
