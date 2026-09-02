@@ -3,7 +3,7 @@ import React from 'react'
 interface ServiceProps {
       id: string,
       name: string,
-      line: boolean,
+      line?: boolean,
       
 }
 
