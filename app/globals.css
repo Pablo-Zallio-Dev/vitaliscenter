@@ -1,26 +1,44 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --accent: #d52557;
+  --background: #fbf6e2;
+  --background-dark: #1d1610;
+  --muted-foreground: #5c534c;
+  --border: #1b140f;
+  --border-25: #1b140f40;
+  --border-cream-35: #faf7ea3e;
+  --cream: #faf7eb;
+  --text: #16110c;
+  --text-secondary: #fdfcf4;
+  --wa: #25D366;
 }
 
 @theme inline {
+  /* COLORES */
+  --color-accent: var(--accent);
+  --color-border: var(--border);
+  --color-border-25: var(--border-25);
+  --color-border-cream-35: var(--border-cream-35);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-cream: var(--cream);
   --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-background-dark: var(--background-dark);
+  --color-text: var(--text);
+  --color-text-secondary: var(--text-secondary);
+  --color-wa: var(--wa);
+
+  /* FUENTE */
+  --font-crimsonText: var(--font-crimson-text);
+  --font-catamaran: var(--font-catamaran);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+.animate-fade-in {
+  animation: fadeIn 0.6s ease-out forwards;
 }

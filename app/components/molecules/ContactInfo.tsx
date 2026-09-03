@@ -1,0 +1,23 @@
+import React from 'react'
+import Icon from '../atoms/Icon'
+import { BsEnvelope, BsTelephone } from 'react-icons/bs'
+import Link from 'next/link'
+
+const ContactInfo = () => {
+      return (
+            <section className=" flex flex-col lg:flex-row gap-2 lg:gap-6 font-catamaran text-sm  ">
+                  {/* Este link es para Whatsapp */}
+                  <Link className=" flex items-center gap-3 " href={'tel:+34678567876'}>
+                        <Icon icon={BsTelephone} />
+                        <p className=" hover:text-accent transition-colors duration-200 ">623 12 34 56</p>
+                  </Link>
+                  {/* Aqui un link a mail o  a form */}
+                  <Link className='flex items-center gap-3' href={'mailto:elcorreoquequieres@correo.com'}>
+                        <Icon icon={BsEnvelope} />
+                        <p className=" hover:text-accent transition-colors duration-200 "> info@mail.com </p>
+                  </Link>
+            </section>
+      )
+}
+
+export default ContactInfo
