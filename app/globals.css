@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 :root {
-  --accent: #ed688d;
+  --accent: #d52557;
   --background: #fbf6e2;
   --background-dark: #1d1610;
   --muted-foreground: #5c534c;
@@ -9,7 +9,7 @@
   --border-25: #1b140f40;
   --border-cream-35: #faf7ea3e;
   --cream: #faf7eb;
-  --text: #1d1610;
+  --text: #16110c;
   --text-secondary: #fdfcf4;
   --wa: #25D366;
 }
@@ -31,4 +31,14 @@
   /* FUENTE */
   --font-crimsonText: var(--font-crimson-text);
   --font-catamaran: var(--font-catamaran);
+}
+
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.6s ease-out forwards;
 }

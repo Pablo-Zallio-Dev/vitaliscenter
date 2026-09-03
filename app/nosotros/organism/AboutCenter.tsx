@@ -26,8 +26,8 @@ const AboutCenter = () => {
                                     Salas individuales de tratamiento, una zona amplia de entrenamiento y readaptación con material de fuerza y movilidad, y una recepción tranquila donde esperar cómodamente.
                               </TextElement>
                               <div className=" flex flex-col sm:flex-row gap-3 ">
-                                    <ButtonPrimary text={'ven a conocerlo'} href={''}  />
-                                    <ButtonSecondary text={'whatsapp'} href={''} variant={'dark'}   />
+                                    <ButtonPrimary text={'ven a conocerlo'} href={'/contacto'}  />
+                                    <ButtonSecondary target='_blank' text={'whatsapp'} href={'https://wa.me/34623456789'} variant={'dark'}   />
                               </div>
                         </div>
 

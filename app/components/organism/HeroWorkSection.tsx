@@ -9,12 +9,12 @@ const HeroWorkSection = () => {
                         <div className=" flex flex-col md:flex-row justify-between gap-10 pt-6">
                               <div className=" flex flex-col gap-2 w-72 lg:w-96 ">
                                     <SubHeading number={"01"} text={"Areas de trabajo"} />
-                                    <TextElement variant={"heading-lg"}>
+                                    <TextElement variant={"heading-lg"} as={"h2"}>
                                           Cuatro formas de tratar el movimiento
                                     </TextElement>
                               </div>
                               <div className=" md:w-105 md:pt-14 ">
-                                    <TextElement variant={"text"}>
+                                    <TextElement variant={"text"} as={"p"}>
                                           No todos los cuerpos llegan en el mismo momento. Por eso el centro trabaja por tipos de tratamiento y no por paquetes cerrados: la primera valoración decide el camino.
                                     </TextElement>
                               </div>
