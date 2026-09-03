@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
 import { Catamaran, Crimson_Text } from "next/font/google";
 import "./globals.css";
-import MobileMenu from "./components/organism/MobileMenu";
-import MobileHeader from "./components/organism/MobileHeader";
-import DesktopHeader from "./components/organism/DesktopHeader";
+import MobileMenu from "./components/organisms/MobileMenu";
+import MobileHeader from "./components/organisms/MobileHeader";
+import DesktopHeader from "./components/organisms/DesktopHeader";
 import ButtonWa from "./components/atoms/ButtonWa";
-import Footer from "./components/organism/Footer";
+import Footer from "./components/organisms/Footer";
 
 const crimsonText = Crimson_Text({
       variable: "--font-crimson-text",
@@ -20,6 +20,7 @@ const catamaran = Catamaran({
 });
 
 export const metadata: Metadata = {
+       metadataBase: new URL('https://www.stickfenomenal.com'),
       title: "VitalisCenter",
       description: "VitalisCenter - Tu clinica de Fisioterapia",
 };

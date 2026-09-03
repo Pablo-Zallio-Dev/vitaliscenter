@@ -1,5 +1,5 @@
 import React from 'react'
-import TextElement from '../atoms/TextElement'
+import TextElement from '../../components/atoms/TextElement'
 import Link from 'next/link'
 
 const CommentsSection = () => {

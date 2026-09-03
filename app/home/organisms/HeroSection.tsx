@@ -1,9 +1,9 @@
 'use client'
-import TextElement from '../atoms/TextElement'
-import ButtonPrimary from '../atoms/ButtonPrimary'
-import ButtonSecondary from '../atoms/ButtonSecondary'
-import HeroServiceItem from '../molecules/HeroServiceItem'
-import FadeIn from '../atoms/FadeIn'
+import TextElement from '../../components/atoms/TextElement'
+import ButtonPrimary from '../../components/atoms/ButtonPrimary'
+import ButtonSecondary from '../../components/atoms/ButtonSecondary'
+import HeroServiceItem from '../../components/molecules/HeroServiceItem'
+import FadeIn from '../../components/atoms/FadeIn'
 
 const HeroSection = () => {
       return (

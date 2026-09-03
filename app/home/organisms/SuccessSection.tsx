@@ -1,8 +1,8 @@
 import Image from 'next/image'
-import TextElement from '../atoms/TextElement'
-import SubHeading from '../atoms/SubHeading'
+import TextElement from '../../components/atoms/TextElement'
+import SubHeading from '../../components/atoms/SubHeading'
 
-const SuccesSection = () => {
+const SuccessSection = () => {
       return (
 
             <section className=" flex flex-col items-center justify-center w-full px-5 md:px-12 bg-background  ">
@@ -97,7 +97,7 @@ const SuccesSection = () => {
       )
 }
 
-export default SuccesSection
+export default SuccessSection
 
 
 

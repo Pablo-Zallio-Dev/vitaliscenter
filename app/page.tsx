@@ -1,10 +1,10 @@
-import CenterSection from "./components/organism/CenterSection";
-import CommentsSection from "./components/organism/CommentsSection";
-import CtaSection from "./components/organism/CtaSection";
-import HeroSection from "./components/organism/HeroSection";
-import HeroWorkSection from "./components/organism/HeroWorkSection";
-import SuccesSection from "./components/organism/SuccesSection";
-import TeamSection from "./components/organism/TeamSection";
+import CenterSection from "./home/organisms/CenterSection";
+import CommentsSection from "./home/organisms/CommentsSection";
+import CtaSection from "./components/organisms/CtaSection";
+import HeroSection from "./home/organisms/HeroSection";
+import HeroWorkSection from "./home/organisms/HeroWorkSection";
+import SuccesSection from "./home/organisms/SuccessSection";
+import TeamSection from "./home/organisms/TeamSection";
 
 
 

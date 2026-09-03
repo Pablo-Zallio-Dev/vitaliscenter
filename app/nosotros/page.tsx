@@ -3,7 +3,7 @@ import AboutHeader from './organism/AboutHeader'
 import AboutHistory from './organism/AboutHistory'
 import AboutTeam from './organism/AboutTeam'
 import AboutCenter from './organism/AboutCenter'
-import CtaSection from '../components/organism/CtaSection'
+import CtaSection from '../components/organisms/CtaSection'
 
 const Nosotros = () => {
   return (

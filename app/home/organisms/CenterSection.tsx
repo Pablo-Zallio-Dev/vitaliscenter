@@ -1,9 +1,9 @@
 'use client'
 import Image from 'next/image'
-import SubHeading from '../atoms/SubHeading'
-import TextElement from '../atoms/TextElement'
-import ButtonSecondary from '../atoms/ButtonSecondary'
-import FadeIn from '../atoms/FadeIn'
+import SubHeading from '../../components/atoms/SubHeading'
+import TextElement from '../../components/atoms/TextElement'
+import ButtonSecondary from '../../components/atoms/ButtonSecondary'
+import FadeIn from '../../components/atoms/FadeIn'
 
 const CenterSection = () => {
       return (

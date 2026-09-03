@@ -3,7 +3,7 @@ import ContactHeader from './organism/ContactHeader'
 import ContactBusinessInfo from './organism/ContactBusinessInfo'
 import ContactMaps from './organism/ContactMaps'
 import ContactFormSection from './organism/ContactFormSection'
-import CtaSection from '../components/organism/CtaSection'
+import CtaSection from '../components/organisms/CtaSection'
 
 const Contacto = () => {
   return (

@@ -1,6 +1,6 @@
-import SubHeading from "../atoms/SubHeading"
-import TextElement from "../atoms/TextElement"
-import CardWorkSection from "../molecules/CardWorkSection"
+import SubHeading from "../../components/atoms/SubHeading"
+import TextElement from "../../components/atoms/TextElement"
+import CardWorkSection from "../../components/molecules/CardWorkSection"
 
 const HeroWorkSection = () => {
       return (

@@ -1,7 +1,7 @@
 import React from 'react'
 import ServicesHeader from './organism/ServicesHeader'
 import ServicesTreatments from './organism/ServicesTreatments'
-import CtaSection from '../components/organism/CtaSection'
+import CtaSection from '../components/organisms/CtaSection'
 
 const Servicios = () => {
       return (
