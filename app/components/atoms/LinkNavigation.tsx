@@ -21,7 +21,7 @@ const LinkNavigation = ( {text, href, variant, isActive, desktop}:LinkNavigation
       
                   
   return (
-    <Link onClick={() => (!desktop ? setIsActiveMenu() : '' )} href={href} className={` ${VariantLinkNavigation[variant]} capitalize ${ isActive && desktop ? 'text-accent bg-background-dark/5' : ''} ${ isActive ? 'text-accent' : ''} `} > {text} </Link>
+    <Link onClick={() => (!desktop ? setIsActiveMenu() : '' )} href={href} className={` ${VariantLinkNavigation[variant]} capitalize ${ isActive && desktop ? 'text-accent bg-background-dark/5' : ''} ${ isActive ? 'text-accent' : ''} scroll-smooth `} > {text} </Link>
   )
 }
 
