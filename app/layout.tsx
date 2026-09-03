@@ -29,7 +29,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       return (
             <html
                   lang="es"
-                  className={`${crimsonText.variable} ${catamaran.variable} scroll-smooth h-full antialiased`}
+                  className={`${crimsonText.variable} ${catamaran.variable}  h-full antialiased`}
             >
                   <head>
                         <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png" />

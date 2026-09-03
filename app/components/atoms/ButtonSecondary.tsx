@@ -17,7 +17,7 @@ export type ButtonSecondaryProps = {
 
 const ButtonSecondary = ( { text, href, target,  variant, full}:ButtonSecondaryProps ) => {
   return (
-    <Link href={href} target={target} rel={target === '_blank' ? 'noopener noreferrer' : undefined} className={ ` ${full ?'w-full justify-start' : ' justify-center ' } ${VariantButtonSecondary[variant]} py-4 px-8 border bg-transparent font-catamaran font-medium tracking-widest  text-sm uppercase  transition-colors duration-200 ` }  >
+    <Link href={href} target={target} rel={target === '_blank' ? 'noopener noreferrer' : undefined} className={ ` ${full ?'w-full justify-start' : ' justify-center ' } ${VariantButtonSecondary[variant]} py-4 px-8 border bg-transparent font-catamaran font-medium tracking-widest  text-sm uppercase  transition-colors duration-200 scroll-smooth ` }  >
       {text}
     </Link>
   )
