@@ -16,7 +16,7 @@ const VariantTextElement: Record<TextElementVariant, string> = {
     "font-semibold font-crimsonText text-[34px] md:text-4xl lg:text-[52px] leading-[1.03]",
   "heading-md":
     "font-crimsonText text-2xl lg:text-3xl font-semibold leading-[1.1]",
-  text: "font-catamaran  text-[15px] leading-[1.75] ",
+  text: "font-catamaran  text-[16px] leading-[1.75] ",
 };
 
 export type TextElementProps = {

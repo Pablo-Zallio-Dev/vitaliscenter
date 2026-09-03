@@ -30,8 +30,9 @@ const CtaSection = ({ subtitle, text, description }: CtaSectionProps) => {
                               </TextElement>
                               <Link className='text-cream text-2xl font-semibold font-crimsonText' href={''} >623 12 34 56</Link>
                               <div className="flex flex-col gap-4">
-                                    <ButtonPrimary text={'Solicitar cita'} href={''} full />
-                                    <ButtonSecondary full text={'whatsapp'} href={''} variant={'light'} />
+                                    <ButtonPrimary text={'Solicitar cita'} href={'/contacto'} full />
+                                  
+                                    <ButtonSecondary full target='_blank' text={'whatsapp'}  href={'https://wa.me/34623456789'}  variant={'light'} />
                               </div>
                         </div>
                   </div>

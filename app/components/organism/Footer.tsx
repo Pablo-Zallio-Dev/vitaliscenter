@@ -17,9 +17,9 @@ const Footer = () => {
                                           Cuéntanos qué te pasa y te decimos con sinceridad si podemos ayudarte.
                                     </TextElement>
                                     <div className=" flex flex-col gap-3 pt-6 ">
-                                          <IconText className='items-center' icon={BsPinMap} text='Carrer Pintor Renau, 42, 46900 Torrent, Valencia' href='' />
-                                          <IconText className='items-center' icon={BsTelephone} text='696 12 34 56' href='' />
-                                          <IconText className='items-center' icon={BsEnvelope} text='hola@somgenial.com' href='' />
+                                          <IconText className='items-center' icon={BsPinMap} text='Carrer Pintor Renau, 42, 46900 Torrent, Valencia' href='https://www.google.com/maps' />
+                                          <IconText className='items-center' icon={BsTelephone} text='696 12 34 56' href='tel:+34678567876' />
+                                          <IconText className='items-center' icon={BsEnvelope} text='hola@somgenial.com' href='mailto:elcorreoquequieres@correo.com' />
                                     </div>
                               </div>
 
@@ -35,7 +35,7 @@ const Footer = () => {
                   </section>
                   <hr className=" w-full border-b border-cream/10 " />
                   <div className=" flex flex-col md:flex-row md:justify-around gap-2 pt-6 pb-12 px-5 md:px-12 ">
-                        <p className=" font-catamaran text-xs text-cream/50 ">© 2026 Stick Fenomenal. Todos los derechos reservados.</p>
+                        <p className=" font-catamaran text-xs text-cream/50 ">© 2026 VitalisCenter. Todos los derechos reservados.</p>
                         <p className=" font-catamaran text-xs text-cream/50 ">Aviso legal Política de privacidad Cookies</p>
                   </div>
             </section>

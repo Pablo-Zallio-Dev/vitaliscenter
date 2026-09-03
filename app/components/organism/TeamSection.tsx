@@ -22,7 +22,7 @@ const TeamSection = () => {
                                     <TextElement variant={'text'} as={'p'} dark className=' py-5 max-w-lg ' >
                                           Personas con nombre y apellidos. Eliges profesional al pedir cita y esa persona te acompaña todo el proceso.
                                     </TextElement>
-                                    <ButtonSecondary text={'conocer al equipo'} href={''} variant={'light'} />
+                                    <ButtonSecondary text={'conocer al equipo'} href={'/nosotros#aboutteam'} variant={'light'} />
                               </div>
                         </div>
                         <section className=" flex flex-col sm:flex-row sm:justify-around gap-6 mt-20 ">
@@ -35,7 +35,7 @@ const TeamSection = () => {
                                           <p className="text-[10px] font-semibold font-catamaran uppercase tracking-widest text-accent ">fisioterapeuta - terapia manual</p>
                                           <h3 className=" font-crimsonText font-semibold text-2xl text-cream ">Alex Ferrer</h3>
                                           <p className=" pt-2 font-catamaran text-cream text-sm ">Especializado en dolor de espalda y recuperación de lesiones.</p>
-                                          <Link href={''} className='w-full flex gap-2 text-cream font-catamaran uppercase text-sm hover:text-accent hover:underline transition-all duration-500 '>Pedir cita con alex <BsArrowRight /></Link>
+                                          <Link href={'/contacto'} className='w-full flex gap-2 text-cream font-catamaran uppercase text-sm hover:text-accent hover:underline transition-all duration-500 '>Pedir cita con alex <BsArrowRight /></Link>
 
                                     </div>
 
@@ -50,7 +50,7 @@ const TeamSection = () => {
                                           <p className="text-[10px] font-semibold font-catamaran uppercase tracking-widest text-accent ">fisioterapeuta readaptaciòn</p>
                                           <h3 className=" font-crimsonText font-semibold text-2xl text-cream ">Marta Gil</h3>
                                           <p className=" pt-2 font-catamaran text-cream text-sm ">Acompaña el paso del tratamiento al movimiento sin miedo.</p>
-                                          <Link href={''} className='w-full flex gap-2 text-cream font-catamaran uppercase text-sm hover:text-accent hover:underline transition-all duration-500 '>Pedir cita con alex <BsArrowRight /></Link>
+                                          <Link href={'/contacto'} className='w-full flex gap-2 text-cream font-catamaran uppercase text-sm hover:text-accent hover:underline transition-all duration-500 '>Pedir cita con Maria <BsArrowRight /></Link>
 
                                     </div>
 

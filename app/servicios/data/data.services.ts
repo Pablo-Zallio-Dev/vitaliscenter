@@ -2,6 +2,7 @@ export const DATA_SERVICES = {
   "treatments": [
     {
       "number": "01",
+      "id": "fisioterapia",
       "label": "Tratamiento",
       "title": "Fisioterapia y terapia manual",
       "description": "Trabajamos con técnicas manuales y una valoración inicial completa para entender el origen de tu molestia. El tratamiento se ajusta a tu caso y a tu ritmo, combinando terapia manual, movilizaciones y pautas para casa.",
@@ -15,16 +16,17 @@ export const DATA_SERVICES = {
       "cta": {
         "appointment": {
           "text": "Coger cita",
-          "href": "https://id-preview--0f180fa1-42f6-4d29-bc96-ca63d66f09bb.lovable.app/contacto"
+          "href": "/contacto"
         },
         "whatsapp": {
           "text": "Preguntar por WhatsApp",
-          "href": "https://wa.me/34623456789?text=Hola%2C%20me%20gustar%C3%ADa%20solicitar%20una%20cita%20en%20Stick%20Fenomenal."
+          "href": "https://wa.me/34623456789"
         }
       }
     },
     {
       "number": "02",
+      "id": "entrenamiento",
       "label": "Tratamiento",
       "title": "Entrenamiento personal",
       "description": "Entrenamiento guiado y adaptado a tu punto de partida, con especial atención a la técnica y a la progresión. Ideal como continuación natural del tratamiento o como plan de mejora física a largo plazo.",
@@ -38,16 +40,17 @@ export const DATA_SERVICES = {
       "cta": {
         "appointment": {
           "text": "Coger cita",
-          "href": "https://id-preview--0f180fa1-42f6-4d29-bc96-ca63d66f09bb.lovable.app/contacto"
+          "href": "/contacto"
         },
         "whatsapp": {
           "text": "Preguntar por WhatsApp",
-          "href": "https://wa.me/34623456789?text=Hola%2C%20me%20gustar%C3%ADa%20solicitar%20una%20cita%20en%20Stick%20Fenomenal."
+          "href": "https://wa.me/34623456789"
         }
       }
     },
     {
       "number": "03",
+      "id": "recuperacion",
       "label": "Tratamiento",
       "title": "Recuperación y métodos complementarios",
       "description": "Combinamos métodos complementarios con el tratamiento principal para acelerar la recuperación muscular, reducir la carga acumulada y mejorar tu sensación de bienestar entre sesiones.",
@@ -61,16 +64,17 @@ export const DATA_SERVICES = {
       "cta": {
         "appointment": {
           "text": "Coger cita",
-          "href": "https://id-preview--0f180fa1-42f6-4d29-bc96-ca63d66f09bb.lovable.app/contacto"
+          "href": "/contacto"
         },
         "whatsapp": {
           "text": "Preguntar por WhatsApp",
-          "href": "https://wa.me/34623456789?text=Hola%2C%20me%20gustar%C3%ADa%20solicitar%20una%20cita%20en%20Stick%20Fenomenal."
+          "href": "https://wa.me/34623456789"
         }
       }
     },
     {
       "number": "04",
+      "id": "tratamiento",
       "label": "Tratamiento",
       "title": "Tratamiento del dolor y movilidad",
       "description": "Cuando el dolor se alarga en el tiempo o la articulación ha perdido recorrido, el enfoque cambia: valoramos qué lo mantiene, trabajamos la zona con técnicas manuales y recuperamos rango de movimiento con ejercicio dosificado y educación sobre la carga.",
@@ -84,11 +88,11 @@ export const DATA_SERVICES = {
       "cta": {
         "appointment": {
           "text": "Coger cita",
-          "href": "https://id-preview--0f180fa1-42f6-4d29-bc96-ca63d66f09bb.lovable.app/contacto"
+          "href": "/contacto"
         },
         "whatsapp": {
           "text": "Preguntar por WhatsApp",
-          "href": "https://wa.me/34623456789?text=Hola%2C%20me%20gustar%C3%ADa%20solicitar%20una%20cita%20en%20Stick%20Fenomenal."
+          "href": "https://wa.me/34623456789"
         }
       }
     }

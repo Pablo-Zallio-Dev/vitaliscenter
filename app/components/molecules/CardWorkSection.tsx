@@ -1,12 +1,17 @@
+'use client'
 import Image from "next/image";
 import TextElement from "../atoms/TextElement";
 import Link from "next/link";
 import { BsArrowRightShort } from "react-icons/bs";
+import FadeIn from "../atoms/FadeIn";
 
 const CardWorkSection = () => {
+
+
       return (
-            <div className="grid grid-cols-1 lg:grid-cols-3 justify-items-center gap-y-8 lg:gap-y-16 w-full mt-20">
-                  <section className="lg:col-start-1 lg:col-end-3 lg:justify-self-start  w-full  sm:w-115 lg:w-3/4 group ">
+            <FadeIn>
+            <div className={` grid grid-cols-1 lg:grid-cols-3 justify-items-center gap-y-8 lg:gap-y-16 w-full mt-20`}>
+                  <section  className={` lg:col-start-1 lg:col-end-3 lg:justify-self-start  w-full  sm:w-115 lg:w-3/4 group `}>
                         <div className="relative z-20 h-60 lg:h-90 overflow-hidden">
                               <Image
                                     src="/images/image_service_01.webp"
@@ -30,7 +35,7 @@ const CardWorkSection = () => {
                                     <div className=" flex items-center text-accent ">
                                           <Link
                                                 className="  text-[11px] font-semibold uppercase "
-                                                href={""}
+                                                href={"/servicios#fisioterapia"}
                                           >
                                                 ver tratamiento{" "}
                                           </Link>
@@ -42,7 +47,7 @@ const CardWorkSection = () => {
                         </div>
                   </section>
 
-                  <section className="lg:col-start-3 lg:col-end-4  w-full  sm:w-115 lg:w-full group">
+                  <section  className={` lg:col-start-3 lg:col-end-4  w-full  sm:w-115 lg:w-full group`}>
                         <div className="relative z-20 w-full h-60 lg:h-90 overflow-hidden">
                               <Image
                                     src="/images/image_service_02.webp"
@@ -66,7 +71,7 @@ const CardWorkSection = () => {
                                     <div className=" flex items-center text-accent ">
                                           <Link
                                                 className="  text-[11px] font-semibold uppercase "
-                                                href={""}
+                                                href={"/servicios#entrenamiento"}
                                           >
                                                 ver tratamiento{" "}
                                           </Link>
@@ -78,7 +83,7 @@ const CardWorkSection = () => {
                         </div>
                   </section>
 
-                  <section className="lg:col-start-1 lg:col-end-2  w-full  sm:w-115 lg:w-full group">
+                  <section  className={` lg:col-start-1 lg:col-end-2  w-full  sm:w-115 lg:w-full group`}>
                         <div className="relative z-20 w-full h-60 lg:h-90 overflow-hidden">
                               <Image
                                     src="/images/image_service_03.webp"
@@ -102,7 +107,7 @@ const CardWorkSection = () => {
                                     <div className=" flex items-center text-accent ">
                                           <Link
                                                 className="  text-[11px] font-semibold uppercase "
-                                                href={""}
+                                                href={"/servicios#recuperacion"}
                                           >
                                                 ver tratamiento{" "}
                                           </Link>
@@ -114,7 +119,7 @@ const CardWorkSection = () => {
                         </div>
                   </section>
 
-                  <section className="lg:col-start-2 lg:col-end-5 lg:justify-self-end  w-full  sm:w-115 lg:w-3/4 group">
+                  <section  className={` lg:col-start-2 lg:col-end-5 lg:justify-self-end  w-full  sm:w-115 lg:w-3/4 group`}>
                         <div className="relative z-20 h-60 lg:h-90 overflow-hidden">
                               <Image
                                     src="/images/image_service_04.webp"
@@ -138,7 +143,7 @@ const CardWorkSection = () => {
                                     <div className=" flex items-center text-accent ">
                                           <Link
                                                 className="  text-[11px] font-semibold uppercase "
-                                                href={""}
+                                                href={"/servicios#tratamiento"}
                                           >
                                                 ver tratamiento{" "}
                                           </Link>
@@ -150,6 +155,7 @@ const CardWorkSection = () => {
                         </div>
                   </section>
             </div>
+            </FadeIn>
       );
 };
 

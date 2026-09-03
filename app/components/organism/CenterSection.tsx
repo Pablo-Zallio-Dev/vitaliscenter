@@ -1,11 +1,13 @@
+'use client'
 import Image from 'next/image'
-import React from 'react'
 import SubHeading from '../atoms/SubHeading'
 import TextElement from '../atoms/TextElement'
 import ButtonSecondary from '../atoms/ButtonSecondary'
+import FadeIn from '../atoms/FadeIn'
 
 const CenterSection = () => {
       return (
+            <FadeIn>
             <section className=" flex justify-center w-full py-20 md:py-28 px-5 md:px-12 bg-background  ">
                   <div className=" flex flex-col gap-18  w-full max-w-336 pb-10 border-b border-border-25  ">
 
@@ -25,7 +27,7 @@ const CenterSection = () => {
                                     <TextElement variant={'text'} as={'p'} className='pt-5 pb-8 max-w-80 '>
                                           Salas individuales para el trabajo manual y una zona amplia de entrenamiento y readaptación, en pleno centro de Torrent. Trabajamos siempre con cita previa para que nadie espere.
                                     </TextElement>
-                                    <ButtonSecondary text={'ver instalaciones'} href={''} variant={'dark'} />
+                                    <ButtonSecondary text={'ver instalaciones'} href={'/nosotros'} variant={'dark'} />
                               </div>
                         </div>
                         <div className=" grid grid-cols-1 lg:grid-cols-3 ">
@@ -53,6 +55,7 @@ const CenterSection = () => {
                         </div>
                   </div>
             </section>
+            </FadeIn>
       )
 }
 

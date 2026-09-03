@@ -15,14 +15,14 @@ const AboutCardsTeam = () => {
                                     Álex Ferrer
                               </TextElement>
                               <TextElement variant={'text'} as={'p'} dark className='mt-5'>
-                                    Álex fundó Stick Fenomenal con una idea simple: dedicar el tiempo necesario a cada persona. Trabaja sobre todo con dolor de espalda y cuello, y con procesos de recuperación que necesitan continuidad.
+                                    Álex fundó Vitalis Center con una idea simple: dedicar el tiempo necesario a cada persona. Trabaja sobre todo con dolor de espalda y cuello, y con procesos de recuperación que necesitan continuidad.
                               </TextElement>
                               <div className="flex flex-col gap-3 mt-7 pb-7">
                                     <TextElement variant={'text'} as={'p'} dark>Grado en Fisioterapia · Universitat de València</TextElement>
                                     <TextElement variant={'text'} as={'p'} dark>Formación en terapia manual ortopédica</TextElement>
                                     <TextElement variant={'text'} as={'p'} dark>Más de 10 años tratando pacientes en Torrent</TextElement>
                               </div>
-                              <ButtonSecondary text={'pedir cita con álex'} href={''} variant={'light'} />
+                              <ButtonSecondary text={'pedir cita con álex'} href={'/contacto'} variant={'light'} />
                         </div>
                   </div>
 
@@ -41,7 +41,7 @@ const AboutCardsTeam = () => {
                                     <TextElement variant={'text'} as={'p'} dark>Especialización en readaptación deportiva</TextElement>
                                     <TextElement variant={'text'} as={'p'} dark>Formación en ejercicio terapéutico</TextElement>
                               </div>
-                              <ButtonSecondary text={'pedir cita con álex'} href={''} variant={'light'} />
+                              <ButtonSecondary text={'pedir cita con álex'} href={'/contacto'} variant={'light'} />
                         </div>
                   </div>
             </section>

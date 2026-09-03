@@ -9,7 +9,7 @@ const SuccesSection = () => {
                   <div className=" w-full max-w-336">
                         <div className=" flex flex-col md:flex-row md:justify-between gap-8  ">
                               <div className="">
-                                    <SubHeading number={'03'} text={'casos de exito'} />
+                                    <SubHeading number={'04'} text={'casos de exito'} />
                                     <TextElement variant={'heading-lg'} as={'h3'} className=' max-w-96 ' >
                                           Historias que acabaron bien
                                     </TextElement>
@@ -23,7 +23,7 @@ const SuccesSection = () => {
                         </div>
                   </div>
 
-                  <div className=" flex flex-col md:flex-row gap-18 w-full max-w-336 pt-12 pb-18 mb-24 border-b border-border-25  ">
+                  <div className=" flex flex-col md:flex-row gap-18 w-full max-w-336 md:pt-10 md:pb-12 mb-12 md:mb-24 border-b border-border-25  ">
                         <div className=" ">
                               <div className="">
 
